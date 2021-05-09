@@ -43,8 +43,9 @@ description-file = README.md`
 
 #### 9. Run `twine upload dist/*` and Enter your username and password. After that It will be uploaded.
 
+#### 10. Run `pip install handDetection==0.1` and import handDetection. After that write this to use: `detector = handDetection.hand_tracking_module.handDetector()`
 
-# handDetection Package `pip install handDetection==0.1`
+# handDetection Package 
 ### In our package we have handDetector class which has findHands,findPosition,fingersUp and findDistance functions.
 
 #### 1. findHands function: It will take two parameters.But by default one parameter are given. You have pass at least one parameter.
